@@ -4,7 +4,7 @@ def hitung_total_panen(berat_kg, harga_per_kg):
 def hitung_diskon(total_harga, persentase_diskon):
     return total_harga * (persentase_diskon / 100)
 
-# Fitur pengerjaan Anggota B: cetak ringkasan laporan
+# Fitur baru oleh Anggota B
 def cetak_laporan_panen(berat, harga, diskon_persen):
     total = hitung_total_panen(berat, harga)
     diskon = hitung_diskon(total, diskon_persen)
